@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ClassLibrary;
 
 public class PolygonalSpriteView : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class PolygonalSpriteView : MonoBehaviour
     void Start()
     {
         //отобразить одно из представлений
-        //polygonView.SetActive(ControllerScript.instance.polygonView);
-        //spriteView.SetActive(!ControllerScript.instance.polygonView);
+        polygonView.SetActive(ControllerScript.instance.polygonView);
+        spriteView.SetActive(!ControllerScript.instance.polygonView);
     }
 }
