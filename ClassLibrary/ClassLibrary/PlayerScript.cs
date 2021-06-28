@@ -66,7 +66,7 @@ namespace ClassLibrary
             }
 
             //покинуть игру
-            if (Input.GetKeyDown(KeyCode.Escape) && Time.time > nextRayTime)
+            if (Input.GetKeyDown(KeyCode.Escape))
                 explode();
         }
 

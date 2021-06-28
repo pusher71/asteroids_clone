@@ -28,7 +28,7 @@ namespace ClassLibrary
         [SerializeField] private Button buttonBack; //кнопка возврата в меню
         [SerializeField] private Text textScore; //виджет очков
 
-        public bool polygonView { get; set; } //тип представления (false - спрайтовый, true - полигональный)
+        public bool polygonView { get; private set; } //тип представления (false - спрайтовый, true - полигональный)
         int score; //текущее количество очков
 
         // Start is called before the first frame update
