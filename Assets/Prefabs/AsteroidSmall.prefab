@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6949207901736197608
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8240128988432830035, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: m_Name
+      value: AsteroidSmall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830036, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830036, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830036, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830036, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: minSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: rotSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: minSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: maxSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: createdOnExplode
+      value: 
+      objectReference: {fileID: 1047742346992399058, guid: e4c67c42848814743811df3ca07c6abf,
+        type: 3}
+    - target: {fileID: 8240128988432830034, guid: 41c87563bc6f5dc428ca30a12afe556e,
+        type: 3}
+      propertyPath: award
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41c87563bc6f5dc428ca30a12afe556e, type: 3}
